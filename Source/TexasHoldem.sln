@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TexasHoldem.AI.DigitronPlay
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContraTerorist", "ContraTerorist\ContraTerorist.csproj", "{DB6E8821-0EB5-419B-BEB0-B53689C17ED8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms", "Algorithms\Algorithms.csproj", "{D5A910BA-C67F-4BA5-83FD-69D7F1E132F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{DB6E8821-0EB5-419B-BEB0-B53689C17ED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB6E8821-0EB5-419B-BEB0-B53689C17ED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB6E8821-0EB5-419B-BEB0-B53689C17ED8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5A910BA-C67F-4BA5-83FD-69D7F1E132F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5A910BA-C67F-4BA5-83FD-69D7F1E132F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5A910BA-C67F-4BA5-83FD-69D7F1E132F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5A910BA-C67F-4BA5-83FD-69D7F1E132F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -75,5 +81,6 @@ Global
 		{E4A11A76-0F2F-4A0F-80E8-6B5026BFB78A} = {42762B9F-D044-43B8-B834-79C455907AD2}
 		{D37E687A-51DB-4865-A0C9-62A15426DAB9} = {213AAF11-5E1C-4C23-ABAE-3324EBA1C3A6}
 		{DB6E8821-0EB5-419B-BEB0-B53689C17ED8} = {213AAF11-5E1C-4C23-ABAE-3324EBA1C3A6}
+		{D5A910BA-C67F-4BA5-83FD-69D7F1E132F8} = {213AAF11-5E1C-4C23-ABAE-3324EBA1C3A6}
 	EndGlobalSection
 EndGlobal

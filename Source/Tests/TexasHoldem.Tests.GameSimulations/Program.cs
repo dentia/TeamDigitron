@@ -8,13 +8,20 @@
     {
         public static void Main()
         {
+
+            SimulateGames(new ContraTerroristVsAlwaysCallSimulator());
+            SimulateGames(new ContraTerroristVsDummySimulator());
+            SimulateGames(new ContraTerroristVsSmartSimulator());
+            SimulateGames(new ContraTerrorisVsAlwaysRaiseSimulator());
+            SimulateGames(new ContraTerroristVsAlwaysFoldSimulator());
+
             SimulateGames(new DigitronVsSmartSimulator());
             SimulateGames(new DigitronVsDummySimulator());
             SimulateGames(new DigitronVsAlwaysCallSimulator());
             SimulateGames(new DIgitronVsContraTeroristSimulator());
-            SimulateGames(new ContraTerroristVsAlwaysCallSimulator());
-            SimulateGames(new ContraTerroristVsDummySimulator());
-            SimulateGames(new ContraTerroristVsSmartSimulator());
+            SimulateGames(new DigitronVsAlwaysFoldSimulator());
+            SimulateGames(new DigitronVsAlwaysRaiseSimulator());
+
         }
 
         private static void SimulateGames(IGameSimulator gameSimulator)

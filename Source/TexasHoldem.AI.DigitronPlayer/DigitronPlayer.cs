@@ -1,5 +1,6 @@
 ﻿namespace TexasHoldem.AI.DigitronPlayer
 {
+    using System;
     using System.Runtime.CompilerServices;
 
     using TexasHoldem.AI.DigitronPlayer.DecisionMakers;
@@ -8,7 +9,7 @@
     public class DigitronPlayer : BasePlayer
     {
         public IDecisionMaker DesicionMaker;
-        public override string Name => "Digitron";
+        public override string Name { get; } = "Digitron_" + Guid.NewGuid();
 
         public override PlayerAction GetTurn(GetTurnContext context)
         {

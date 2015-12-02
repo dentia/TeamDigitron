@@ -82,6 +82,14 @@
       <Project>{e7ba8017-d56e-485c-81d1-a1ccdaae624f}</Project>
       <Name>TexasHoldem.AI.SmartPlayer</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\ContraTerorist\ContraTerorist.csproj">
+      <Project>{db6e8821-0eb5-419b-beb0-b53689c17ed8}</Project>
+      <Name>ContraTerorist</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\TexasHoldem.AI.DigitronPlayer\TexasHoldem.AI.DigitronPlayer.csproj">
+      <Project>{d37e687a-51db-4865-a0c9-62a15426dab9}</Project>
+      <Name>TexasHoldem.AI.DigitronPlayer</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\TexasHoldem.Logic\TexasHoldem.Logic.csproj">
       <Project>{bcf99e8b-2025-444f-83c7-24542fcf33df}</Project>
       <Name>TexasHoldem.Logic</Name>

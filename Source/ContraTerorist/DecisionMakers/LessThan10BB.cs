@@ -9,9 +9,9 @@
     using TexasHoldem.Logic.Cards;
     using TexasHoldem.Logic.Players;
 
-    public class DesperateBot : IDecisionMaker
+    public class LessThan10BB: IDecisionMaker
     {
-        public DesperateBot(Card a, Card b)
+        public LessThan10BB(Card a, Card b)
         {
             this.FirstCard = a;
             this.SecondCard = b;
@@ -38,18 +38,26 @@
 
             double chenScore = chen.CalculateProbability();
 
-            if (chenScore >= (double)ChenConstants.LateRaise)
+            if (chenScore > 13)
             {
-                //calc the  right ammount to raise
-                return PlayerAction.Raise((context.MoneyLeft /10)+1);
+                return PlayerAction.Raise(2000);
             }
 
-            if (chenScore > (double)ChenConstants.LateFold)
+            if (chenScore >= (double)ChenConstants.LateRaiseLessThan10BB)
             {
-                if (context.MoneyToCall < (context.MoneyLeft / 10))
-                {
-                    PlayerAction.CheckOrCall();
-                }
+                //calc the  right ammount to raise
+                return PlayerAction.Raise((context.MoneyLeft/3)+1);
+            }
+
+            //if (chenScore > (double)ChenConstants.LateFoldLessThan10BB)
+            //{
+            //    if (context.CanCheck) { 
+            //    return PlayerAction.CheckOrCall();
+            //    }
+            //}
+            if (context.CanCheck)
+            {
+                return PlayerAction.CheckOrCall();
             }
 
             return PlayerAction.Fold();

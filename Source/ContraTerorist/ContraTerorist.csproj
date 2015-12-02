@@ -43,12 +43,17 @@
   <ItemGroup>
     <Compile Include="DecisionMakers\DesperateBot.cs" />
     <Compile Include="DecisionMakers\IDecisionMaker.cs" />
+    <Compile Include="DecisionMakers\LessThan10BB.cs" />
     <Compile Include="DecisionMakers\MingyBot.cs" />
     <Compile Include="DecisionMakers\RiskTaker.cs" />
     <Compile Include="ContraTerrorist.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Algorithms\Algorithms.csproj">
+      <Project>{d5a910ba-c67f-4ba5-83fd-69d7f1e132f8}</Project>
+      <Name>Algorithms</Name>
+    </ProjectReference>
     <ProjectReference Include="..\TexasHoldem.Logic\TexasHoldem.Logic.csproj">
       <Project>{bcf99e8b-2025-444f-83c7-24542fcf33df}</Project>
       <Name>TexasHoldem.Logic</Name>

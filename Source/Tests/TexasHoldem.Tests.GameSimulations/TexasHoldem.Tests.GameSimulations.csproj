@@ -44,18 +44,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GameSimulators\AlwaysCallPlayersGameSimulation.cs" />
+    <Compile Include="GameSimulators\AlwaysCallPlayersGameSimulator.cs" />
     <Compile Include="GameSimulators\BaseGameSimulator.cs" />
     <Compile Include="GameSimulators\ContraTerroristVsAlwaysCallSimulator.cs" />
+    <Compile Include="GameSimulators\ContraTerroristVsAlwaysFoldSimulator.cs" />
     <Compile Include="GameSimulators\ContraTerroristVsDummySimulator.cs" />
     <Compile Include="GameSimulators\ContraTerroristVsSmartSimulator.cs" />
+    <Compile Include="GameSimulators\ContraTerrorisVsAlwaysRaiseSimulator.cs" />
     <Compile Include="GameSimulators\DigitronVsAlwaysCallSimulator.cs" />
+    <Compile Include="GameSimulators\DigitronVsAlwaysFoldSimulator.cs" />
+    <Compile Include="GameSimulators\DigitronVsAlwaysRaiseSimulator.cs" />
     <Compile Include="GameSimulators\DIgitronVsContraTeroristSimulator.cs" />
     <Compile Include="GameSimulators\DigitronVsDummySimulator.cs" />
     <Compile Include="GameSimulators\DigitronVsSmartSimulator.cs" />
     <Compile Include="GameSimulators\GameSimulationResult.cs" />
     <Compile Include="GameSimulators\IGameSimulator.cs" />
-    <Compile Include="GameSimulators\SmartVsAlwaysCallPlayerSimulation.cs" />
+    <Compile Include="GameSimulators\SmartVsAlwaysCallPlayerSimulator.cs" />
     <Compile Include="GameSimulators\SmartVsDummyPlayerSimulator.cs" />
     <Compile Include="GameSimulators\SmartVsSmartPlayerSimulator.cs" />
     <Compile Include="Program.cs" />
