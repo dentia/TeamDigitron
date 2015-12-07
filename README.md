@@ -31,10 +31,10 @@ cards*/
 ~~~
 
 #### High Quality Code
--Factory Method for creating Decision Maker depending on the type of the game round
--State pattern 
--No Stylecop errors
--SOLID
+- Factory Method for creating Decision Maker depending on the type of the game round
+- State pattern 
+- No Stylecop errors
+- SOLID
 
 ## GitHub repository
 https://github.com/NikolayIT/TeamDigitron 
